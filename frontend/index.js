@@ -10,7 +10,7 @@ const translator = new deepl.Translator(authKey);
     console.log(result.text); // Bonjour, le monde !
 })();   
 
-// Schmuhl Rosenzweig
+// Schmul Rosenzweig
 /*
 
 Funktionalität:
