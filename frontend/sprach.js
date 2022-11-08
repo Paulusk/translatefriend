@@ -14,4 +14,3 @@ speechElement.onstart = function(){
 speechElement.onresult = function(event){
     console.log("event")
 }
-//hehe boy
