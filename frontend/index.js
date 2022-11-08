@@ -10,7 +10,7 @@ const translator = new deepl.Translator(authKey);
     console.log(result.text); // Bonjour, le monde !
 })();   
 
-// Schmul Rosenzweig der große
+// Schmul Rosenzweig der große II
 /*
 
 Funktionalität:
