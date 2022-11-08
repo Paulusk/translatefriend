@@ -1,5 +1,15 @@
 console.log("Hello World")
 
+import * as deepl from 'deepl-node';
+
+const authKey = "f63c02c5-f056-..."; // Replace with your key
+const translator = new deepl.Translator(authKey);
+
+(async () => {
+    const result = await translator.translateText('Hello, world!', null, 'fr');
+    console.log(result.text); // Bonjour, le monde !
+})();   
+
 // Schmuhl Rosenzweig
 /*
 
@@ -43,3 +53,4 @@ erster spring 01.11.22 - 13.11.22 ||
 5. sprachanalyse
 
 */
+
